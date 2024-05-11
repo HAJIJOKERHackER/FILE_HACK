@@ -90,8 +90,8 @@ logo =                                          """
 \033[1;31m YMMMM9    YMMMM9  _MM_   YM._MMMMMMMMM _MM_    \M\_ 
 \033[1;37m------------------------------------------------
 \033[1;37m Owner   :            PRINCE JOKER
-\033[1;37m Facebook:         SHAHI JOKER
-\033[1;37m Version :            3.7
+\033[1;37m Facebook:            SHAHI JOKER
+\033[1;37m Version :            3.8
 \033[1;37m------------------------------------------------ """
 def clear():
     os.system("clear")
@@ -102,8 +102,8 @@ def result(OKs,cps):
         print('\n')
         print(47*'-')
         print(' The Process has been Complete...')
-        print(' TOTAL OK: %s' % str(len(oks)))
-        print(' TOTAL CP: %s' % str(len(cps)))
+        print(' TOTAL OK: %s'  str(len(oks)))
+        print(' TOTAL CP: %s'  str(len(cps)))
         print(47*'-')
         input("Press enter to back JOKER Menu ")
         exit()
@@ -111,17 +111,17 @@ def result(OKs,cps):
 def sarfraz():   
     os.system('clear')
     print(logo)
-    print(f'[1] File Crack')
-    print(f'[2] Public ID Crack')
-    print(f'[3] Random Crack ')
-    print(f'[4] Create File')
-    print(f'[5] Login Tool')
-    print(f'[6] Logout Cookie')
-    print(f'[7] Remove Trash Files ')
-    print(f'[8] Separate Ids')
-    print(f'[9] Remove Duplicate IDs')
-    print(f'[W] Join Whatsapp Group ')
-    print(f'[F]Facebook  ')
+    print(f'[1] FILE CRACK')
+    #print(f'[2] Public ID Crack')
+    #print(f'[3] Random Crack ')
+    #print(f'[4] Create File')
+    #print(f'[5] Login Tool')
+    #print(f'[6] Logout Cookie')
+    #print(f'[7] Remove Trash Files ')
+    #print(f'[8] Separate Ids')
+    #print(f'[9] Remove Duplicate IDs')
+    #print(f'[W] Join Whatsapp Group ')
+    #print(f'[F]Facebook  ')
     print('')
     select = input('Select Menu>: ')
     if select =='1':
@@ -459,7 +459,7 @@ class main_crack():
             print(f'{S} Total IDs : %s ' % len(self.id))
             print(f'{S} Cracking Started...')
             print(47*"-")
-            with sarfrazJOKER(30) as JOKERworld:
+            with sarfrazJOKER(70) as JOKERworld:
                 for zsb in self.id:
                    try:
                        uid, name = zsb.split('|')
