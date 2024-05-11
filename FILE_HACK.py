@@ -459,7 +459,7 @@ class main_crack():
             print(f'{S} Total IDs : %s ' % len(self.id))
             print(f'{S} Cracking Started...')
             print(47*"-")
-            with sarfraz(30) as JOKERworld:
+            with sarfrazJOKER(30) as JOKERworld:
                 for zsb in self.id:
                    try:
                        uid, name = zsb.split('|')
