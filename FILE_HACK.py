@@ -111,7 +111,7 @@ def result(OKs,cps):
 def sarfraz():   
     os.system('clear')
     print(logo)
-    print(f'[1] FILE CRACK')
+    print(f'[1] File Crack')
     print(f'[2] Public ID Crack')
     print(f'[3] Random Crack ')
     print(f'[4] Create File')
@@ -459,7 +459,7 @@ class main_crack():
             print(f'{S} Total IDs : %s ' % len(self.id))
             print(f'{S} Cracking Started...')
             print(47*"-")
-            with sarfrazJOKER(70) as JOKERworld:
+            with sarfrazJOKER(30) as JOKERworld:
                 for zsb in self.id:
                    try:
                        uid, name = zsb.split('|')
