@@ -90,7 +90,7 @@ logo =                                          """
 \033[1;31m YMMMM9    YMMMM9  _MM_   YM._MMMMMMMMM _MM_    \M\_ 
 \033[1;37m------------------------------------------------
 \033[1;37m Owner   :            PRINCE JOKER
-\033[1;37m Facebook:         SHAHI JOKER
+\033[1;37m Facebook:            SHAHI JOKER
 \033[1;37m Version :            3.7
 \033[1;37m------------------------------------------------ """
 def clear():
