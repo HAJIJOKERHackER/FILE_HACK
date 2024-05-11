@@ -90,7 +90,7 @@ logo =                                          """
 \033[1;31m YMMMM9    YMMMM9  _MM_   YM._MMMMMMMMM _MM_    \M\_ 
 \033[1;37m------------------------------------------------
 \033[1;37m Owner   :            PRINCE JOKER
-\033[1;37m Facebook:            SHAHI JOKER
+\033[1;37m Facebook:         SHAHI JOKER
 \033[1;37m Version :            3.7
 \033[1;37m------------------------------------------------ """
 def clear():
@@ -459,7 +459,7 @@ class main_crack():
             print(f'{S} Total IDs : %s ' % len(self.id))
             print(f'{S} Cracking Started...')
             print(47*"-")
-            with sarfraz(70) as JOKERworld:
+            with sarfraz(30) as JOKERworld:
                 for zsb in self.id:
                    try:
                        uid, name = zsb.split('|')
