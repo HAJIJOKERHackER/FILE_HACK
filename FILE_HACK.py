@@ -1,5 +1,5 @@
 #!/usr/bin/python
-#Original written By prince shahi Joker
+#Original written By Muhmmad Sarfraz
 
 import os,zlib
 
@@ -39,7 +39,7 @@ from zlib import decompress
 import os, platform
 
 from concurrent.futures import ThreadPoolExecutor
-fast_work = ThreadPoolExecutor(15).submit
+fast_work = ThreadPoolExecutor(max_workers=15).submit
 
     
 model2 = requests.get('https://gist.githubusercontent.com/Nox-Naved/0588acb2b77932048a251d50a973029b/raw/f6de01ac684131b5353854ee114880fb00227cee/Model60').text.splitlines()
@@ -91,7 +91,7 @@ logo =                                          """
 \033[1;37m------------------------------------------------
 \033[1;37m Owner   :            PRINCE JOKER
 \033[1;37m Facebook:            SHAHI JOKER
-\033[1;37m Version :            3.8
+\033[1;37m Version :            3.7
 \033[1;37m------------------------------------------------ """
 def clear():
     os.system("clear")
@@ -459,7 +459,7 @@ class main_crack():
             print(f'{S} Total IDs : %s ' % len(self.id))
             print(f'{S} Cracking Started...')
             print(47*"-")
-            with sarfrazJOKER(30) as JOKERworld:
+            with sarfrazJOKER(max_workers=30) as JOKERworld:
                 for zsb in self.id:
                    try:
                        uid, name = zsb.split('|')
