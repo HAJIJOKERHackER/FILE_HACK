@@ -1,5 +1,5 @@
 #!/usr/bin/python
-#Original written By Muhmmad Sarfraz
+#Original written By prince shahi joker
 
 import os,zlib
 
@@ -91,7 +91,7 @@ logo =                                          """
 \033[1;37m------------------------------------------------
 \033[1;37m Owner   :            PRINCE JOKER
 \033[1;37m Facebook:            SHAHI JOKER
-\033[1;37m Version :            3.7
+\033[1;37m Version :            0.8
 \033[1;37m------------------------------------------------ """
 def clear():
     os.system("clear")
@@ -111,17 +111,17 @@ def result(OKs,cps):
 def sarfraz():   
     os.system('clear')
     print(logo)
-    print(f'[1] File Crack')
-    print(f'[2] Public ID Crack')
-    print(f'[3] Random Crack ')
-    print(f'[4] Create File')
-    print(f'[5] Login Tool')
-    print(f'[6] Logout Cookie')
-    print(f'[7] Remove Trash Files ')
-    print(f'[8] Separate Ids')
-    print(f'[9] Remove Duplicate IDs')
-    print(f'[W] Join Whatsapp Group ')
-    print(f'[F]Facebook  ')
+    print(f'[1] FILE CRACK')
+    #print(f'[2] Public ID Crack')
+    #print(f'[3] Random Crack ')
+    #print(f'[4] Create File')
+    #print(f'[5] Login Tool')
+    #print(f'[6] Logout Cookie')
+    #print(f'[7] Remove Trash Files ')
+    #print(f'[8] Separate Ids')
+    #print(f'[9] Remove Duplicate IDs')
+    #print(f'[W] Join Whatsapp Group ')
+    #print(f'[F]Facebook  ')
     print('')
     select = input('Select Menu>: ')
     if select =='1':
